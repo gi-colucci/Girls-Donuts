@@ -1,0 +1,43 @@
+header
+{
+    background: #c9ad9b;
+    height: 20vh;
+    width: 100%;
+    display: inline-flex;
+    z-index: 999;
+}
+
+header img
+{
+    width: 9vw;
+    height: 18vh;
+}
+
+header ul 
+{
+    list-style: none;
+    display: inline-flex;
+    font-size: 3.5vh;
+    padding-left: 55vw;
+    padding-top: 10vh;
+}
+
+header ul li 
+{
+    padding-left: 2.5vw;
+    font-family: verdana;
+    color: rgb(247, 112, 112);
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+header ul li:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: brown;
+    cursor: pointer;
+}

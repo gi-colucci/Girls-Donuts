@@ -1,0 +1,119 @@
+body 
+{
+    background:beige;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.donuts-1-fil, .donuts-2-fil, .donuts-3-fil, .donuts-4-fil
+{
+    display: inline-flex;
+    text-align: center;
+    gap:3vw;
+    margin-top: 2vw;
+}
+
+.alinhar
+{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.donuts-1-fil img, .donuts-2-fil img, .donuts-3-fil img, .donuts-4-fil img
+{
+    width: 18vw;
+    height: 32vh;
+}
+
+.donuts-1-fil div, .donuts-2-fil div, .donuts-3-fil div, .donuts-4-fil div
+{
+    background-color: #FFDBE5;
+    width: 20vw;
+    height: 60vh;
+    filter: brightness(95%);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    
+}
+
+.donuts-1-fil div:hover, .donuts-2-fil div:hover, .donuts-3-fil div:hover, .donuts-4-fil div:hover
+{
+    cursor:pointer;
+    transform: scale(1.06);
+    transition: 0.5s ease-out;
+}
+
+.title-donuts
+{
+    color: brown;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5vh;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(170, 73, 73);
+}
+
+.title2
+{
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(170, 73, 73);
+}
+
+.txt-div{
+    color: brown;
+    font-size:15px;
+    padding: 1vh;
+}
+
+#imgsLide
+{
+    width: 99%;
+    margin-left: 0.5vw;
+    height: 65vh;
+    border-radius: 20px;
+}
+
+input
+{
+    width: 13vw;
+    height: 6vh;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(160, 99, 99);
+    background-color:antiquewhite;
+}
+
+.buttons
+{
+    padding: 3vw;
+    margin-left: 40vw;
+}
+
+.buttons :hover
+{
+    opacity:0.9;
+}
+
+.btn{
+    border: none;
+    border-radius: 5vh;
+    color: white;
+    background-color: #c98195;
+}
+
+#botoes_slide
+{
+    visibility: hidden;
+}

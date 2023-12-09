@@ -1,0 +1,36 @@
+.logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer img{
+    width: 9vw;
+    height: 18vh;
+}
+
+.footer
+{
+    background: #C9AD9B66;
+    height: fit-content;
+}
+
+.direitos
+{
+    font-size: 8px;
+    text-align: center;
+    font-family: arial;
+}
+
+.redes-sociais{
+    padding: 2vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sob1, .sob2, .sob3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+}
