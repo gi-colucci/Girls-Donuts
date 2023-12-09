@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="js/javascript.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gi e sandy">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body id="inicio">
+    <header >
+        <a href="#inicio"><img src="imgs/LOGO_DOCERIA.png" title="logo" name="logo" class="logo-header" ></a>
+            <ul>
+                <li>Cadastre-se</li>
+                <a href="sob.html"><li>Sobre Nós</li></a>
+                <a href="card.html"><li>Donuts</li></a>
+            </ul>
+    </header>
+
+    <section id="carrossel">
+        <img id="imgsLide" src="imgs/free4.jpg" name= "slide"/>
+        <form id="botoes_slide">
+          <div class="botcenter">
+          <input type="radio" id="v1" name="m" onClick="Muda(1)"/>
+          <input type="radio" id="v2" name="m" onClick="Muda(2)"/>
+          <input type="radio" id="v3" name="m" onClick="Muda(3)"/>
+          </div>
+        </form>
+      </section>
+          
+     <script language="JavaScript">
+        var contador = 1; //variável pública criada fora da function
+        var img1="imgs/img1.png";
+        var img2="imgs/img2.jpeg";
+        var img3="imgs/img3.jpeg";
+        var tempo=1700; //1500(milessegundos) : 1000 (milessegundo) = 1,5s
+        var exibir=setInterval("Exibindo()",tempo);
+         // Inicia o looping trocando imagens de 1,8s em 1,8s
+     </script>
+
+<p class="title">Nossos Donuts em Destaque:</p>
+
+  <section class="alinhar">
+    <section class="donuts-1-fil">
+        <div>
+            <img src="imgs/donuts1.png" alt="">
+            <p class="title-donuts">Os Simpsons</p>
+            <p class="txt-div">Um ícone que não pode faltar! Donuts fofinho recoberto com chocolate rosa e granulados coloridos!</p>
+        </div>
+        <div>
+            <img src="imgs/donuts2.png" alt="">
+            <p class="title-donuts">Boston Cream</p>
+            <p class="txt-div">Donuts fofinho recheado com creme de baunilha e cobertura de chocolate. Uma combinação deliciosa!</p>
+        </div>
+        <div>
+            <img src="imgs/donuts3.png" alt="">
+            <p class="title-donuts">Choco Power</p>
+            <p class="txt-div">Esse Ring tem 3x mais chocolate! No recheio, na cobertura e na camada extra do exclusivo crocante black. Simplesmente Power!</p>
+        </div>
+    </section>
+    <section class="donuts-2-fil">
+        <div>
+            <img src="imgs/donuts4.png" alt="">
+            <p class="title-donuts">Nutella</p>
+            <p class="txt-div">O encontro perfeito da irresistível Nutella com a massa levinha dos nossos Donuts! Você vai se apaixonar!</p>
+        </div>
+        <div>
+            <img src="imgs/donuts5.png" alt="">
+            <p class="title-donuts">Laka</p>
+            <p class="txt-div">Donuts recheado com o chocolate branco mais gostoso do Brasil e recoberto com nosso delicioso Donuts Sugar.</p>
+        </div>
+        <div>
+            <img src="imgs/donuts6.png" alt="">
+            <p class="title-donuts">Diamante Negro</p>
+            <p class="txt-div">Donuts Diamante Negro é recoberto pelo delicioso Donuts Sugar e possui o recheio de um dos chocolates mais amados do Brasil!</p>
+        </div>
+
+    </section>
+  </section>
+  
+        <div class="buttons">
+            <a href="card.html"><input type="button" class="btn" value="Cardápio Completo"></a>
+        </div>
+
+  
+    <section class="footer">
+        <footer>
+            <div class="logo-footer" >
+                <a href="#inicio"><img src="imgs/LOGO_DOCERIA.png" title="logo" name="logo" class="logo-header"></a>
+            </div>
+            <hr>
+
+            <div class="mapa">
+            
+            </div>
+    
+            <div class="redes-sociais">
+                <img class="fb"img width="40" height="40" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
+                <a href="https://api.whatsapp.com/send?phone=5511959482367&text=Ol%C3%A1%20Girls%20Donuts!%20Gostaria%20de%20fazer%20um%20pedido."><img class="wpp" img width="40" height="40" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+                <a href="https://www.bing.com/maps?osid=360d1cb1-fe5b-41bd-8d55-ddced9466e52&cp=-23.520041~-46.733696&lvl=16&imgid=6cbf4a46-e1e6-48b8-912f-d8257d1388c6&v=2&sV=2&form=S00027"><img class="mapa" img width="40" height="40" src="https://img.icons8.com/ios/50/map--v1.png" alt="map--v1"/></a>
+            </div>
+
+            <div class="direitos">
+                <h1 class="txt-footer">©2023 - Todos os direitos autorais reservados.</h1>
+            </div>
+
+        </footer>
+    </section>
+</body>
+</html>
