@@ -1,2 +1,2 @@
 # Girls-Donuts-.
-Site de uma loja de Donuts, utilizando CSS, HTML &amp; JS.
+Este site foi desenvolvido no meu curso de Desenvolvimento de Sistema, utilizando CSS, HTML &amp; JS.
